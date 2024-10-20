@@ -1,0 +1,51 @@
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.VENV/
+
+# Archivos de Python
+*.py[cod]
+_pycache_/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# Configuración de entorno
+.env
+*.env
+
+# Archivos de log y caché
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Archivos creados por IDEs
+.vscode/
+.idea/
+*.swp
+
+# Dependencias instaladas por pip
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de distribución
+*.manifest
+*.spec
+
+# Archivos generados por MacOS
+.DS_Store
